@@ -5,14 +5,18 @@ simple javascript cache library
 
 
 
-`` /** set item */ ``
+Set item
+---------
 
 `` jsCache.set('myKey', 'test'); ``
 
-`` /** get item */ ``
+Get item
+--------
 
 `` var item = jsCache.get('myKey'); ``
 
-`` /** remove item */ ``
+
+Remove item
+-----------
 
 `` var item = jsCache.remove('myKey'); ``
