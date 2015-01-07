@@ -1,8 +1,7 @@
 jsCache
 =======
 
-simple javascript cache library
-
+simple javascript cache library that use localStorage
 
 
 Set item
