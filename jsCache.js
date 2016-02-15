@@ -1,14 +1,14 @@
 /**
  * simple javascript cache
- * 
+ *
  * use localStorage
- * 
+ *
  * @author cata
  */
 
 var jsCache = {
-    
-    /** 
+
+    /**
      * Set value in Cache
      * @param {string} key
      * @param {string} value
@@ -20,12 +20,12 @@ var jsCache = {
             throw new Error('Cache set error for key <'+key+'> value <'+value+'>');
         }
     },
-    
-    
+
+
     /**
      * get value from Cache
-     * @param {type} key
-     * @returns {DOMString}
+     * @param {string} key
+     * @returns data from cache
      */
     get: function (key) {
         try {
@@ -34,8 +34,8 @@ var jsCache = {
             throw new Error('Cache get error for key <'+key+'>');
         }
     },
-    
-     
+
+
     /**
      * Remove value from Cache
      * @param {string} key
